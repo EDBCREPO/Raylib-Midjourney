@@ -12,7 +12,7 @@ void onMain() {
 
     process::env::init( ".env" );
 
-    rl::Init( { 750, 500 }, 60, "midjourney" );
+    rl::Init( { 750, 500 }, 60, "Stable Diffusion" );
 
     rl::AppendScene( rl::scene::scene_0 );
 

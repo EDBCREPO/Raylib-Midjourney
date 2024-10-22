@@ -1,5 +1,5 @@
 # Raylib + Midjourney
-This is a simple raylib app that integrates midjorney
+This is a simple raylib app that integrates midjourney
 
 ## Dependencies
 ```bash

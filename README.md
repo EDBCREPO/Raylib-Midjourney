@@ -1,5 +1,5 @@
-# Raylib + Midjourney
-This is a simple raylib app that integrates midjourney
+# Raylib + Stable Diffusion
+This is a simple raylib app that integrates Stable Diffusion
 
 ## Dependencies
 ```bash

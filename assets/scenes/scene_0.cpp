@@ -30,7 +30,7 @@ namespace rl { namespace scene {
                         { "width", "512" }, { "height", "512" }, 
                         { "samples", "1" }, { "num_inference_steps", "20" },
                         { "prompt", regex::replace_all( obj->bff1, "\n", "" ) },
-                        { "negative_prompt", regex::replace_all( obj->bff1, "\n", "" ) }
+                        { "negative_prompt", regex::replace_all( obj->bff2, "\n", "" ) }
                     }) );
 
             UnloadTexture( obj->img ); obj->a4=0;

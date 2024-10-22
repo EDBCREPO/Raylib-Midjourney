@@ -58,10 +58,10 @@ namespace rl { namespace scene {
                     obj->img = LoadTextureFromImage(img); 
                     UnloadImage( img ); obj->a4=1;
 
-                }).fail([]( except_t err ){ console::error( err ); });
+                }).fail([]( except_t err ){ console::error( "something went wrong" ); });
 
-            } catch( except_t err ){ console::error( err ); }
-            }).fail([=]( except_t err ){ console::error( err ); });
+            } catch( except_t err )    { console::error( "something went wrong" ); }
+            }).fail([=]( except_t err ){ console::error( "something went wrong" ); });
 
         });
 

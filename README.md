@@ -8,7 +8,7 @@ This is a simple raylib app that integrates Stable Diffusion
 ```
 
 ## Preview
-[preview](https://github.com/user-attachments/assets/627a7042-a2e7-46b7-8d2e-f4e9ac15de3c)
+[preview](https://github.com/user-attachments/assets/f39e9271-6ca4-4326-a3df-d306f66888f6)
 
 ## Build & Use
 ```bash
